@@ -1,0 +1,12 @@
+earth_mass = 5,94 * 10**24
+sun_mass = 1,989 * 10**30
+earth_radius = 6378
+sun_radius = 697000
+gravity_constant = 6,67 * 10**(-11)
+c = 3 * 10**8
+astronomical_unit = 149,6 * 10**9
+parsec = 3,1 * 10**16
+planck_constant = 6,626 * 10**(-34)
+boltzmann_constant = 1,38 * 10**(-23)
+g = 10
+e = 2,72
