@@ -19,6 +19,6 @@ from astro_constant import planck_constant as pc
 T = 200
 E = 300
 
-N = (2 * pc * e**(-E/(bc * T)) * E**(T/2)) / (pi**0,5 * (bc * T)**(1,5))
+N = (2 * pc * e**(-E/(bc * T)) * E**(T/2)) / (pi**0.5 * (bc * T)**(1.5))
 
 print(N)
