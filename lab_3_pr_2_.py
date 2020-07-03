@@ -4,7 +4,7 @@ from math import cos, sin, pi
 from astro_constant import g
 
 v = float(input('введите начальную скорость в м/с: '))
-n = float(input('введите угол в градусах:'))
+n = float(input('введите угол в градусах: '))
 a = (n * pi) / 180
 t = float(input('введите момент времени в секундах: '))
 
