@@ -14,9 +14,9 @@ def circlea_plotter(R=1, title='Circle plotter'):
     x = np.arange(t, u, f)
     y = np.arange(t, u, f)
     
-    X, Y = np.meshgrid(x, y) #указание на неявное задание координат
-    fxy = X**2 + Y**2 #уравнение окружности
-    plt.contour(X, Y, fxy, levels=[R**2]) #команда рисования неявнозаданных кривых
+    X, Y = np.meshgrid(x, y) 
+    fxy = X**2 + Y**2
+    plt.contour(X, Y, fxy, levels=[R**2]) 
     
     plt.axis('equal')
     plt.savefig('dfghjk.png')
