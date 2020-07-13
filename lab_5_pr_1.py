@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt #импорт модуля pyplot
+import matplotlib.pyplot as plt 
 import numpy as np
 
 
